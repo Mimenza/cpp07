@@ -24,9 +24,8 @@ int main()
 		a[i] = i;
 	}
 
-	for (std::size_t i = 0; i < a.size(); i++) {
-		std::cout << a[i] << std::endl;
-	}
+		std::cout << a << std::endl;
+
 
 	//simulate error
 	a[22] = 10;
